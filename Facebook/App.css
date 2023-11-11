@@ -1,0 +1,50 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+.App-header {
+  background-color: #3b5998;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Main Content Styles */
+.container {
+  margin-top: 2rem;
+}
+
+/* Feed Styles */
+.Feed {
+  width: 100%;
+}
+
+.PostForm textarea {
+  width: 100%;
+  resize: none;
+}
+
+.Post {
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+.Post .card-body {
+  padding: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .col-md-8 {
+    order: 2; /* Change the order of the main content in smaller screens */
+  }
+
+  .col-md-4 {
+    order: 1; /* Change the order of the sidebar in smaller screens */
+  }
+}
