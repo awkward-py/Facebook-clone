@@ -57,7 +57,7 @@ Thanks to the contributors to this project.
 
 If you have any questions, please contact:
 
-- Your Name: [awkwardpy@gmail.com]
+- Pankaj Rawat: [awkwardpy@gmail.com]
 
 ## License
 
